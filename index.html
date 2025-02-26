@@ -1,13 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <!-- Mobil uyum için temel ayarlar -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben Karazeybek Çiftliği</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,6 +38,7 @@
             -moz-osx-font-smoothing: grayscale;
             font-weight: 400;
         }
+
 
         /* Genel Container */
         .container {
@@ -172,6 +169,7 @@
             padding: 50px; /* Boşluk arttırıldı */
         }
 
+
         .hero-title {
             font-size: 5em; /* Başlık boyutu arttırıldı */
             margin-bottom: 30px;
@@ -191,6 +189,8 @@
             max-width: 950px; /* Genişlik sınırlama */
             font-weight: 500;
         }
+
+
 
         .hero-buttons {
             display: flex;
@@ -220,10 +220,12 @@
             background: var(--button-hover-gradient);
         }
 
+
         /* Bölümler */
         .section {
             margin-bottom: 100px; /* Bölüm alt boşluğu arttırıldı */
         }
+
 
         .section-title {
             color: var(--heading-color);
@@ -249,6 +251,8 @@
             border-radius: 0 6px 6px 0; /* Köşe yuvarlama arttırıldı */
         }
 
+
+
         /* Ürünler Bölümü */
         .product-grid {
             display: grid;
@@ -268,6 +272,7 @@
             display: flex;
             flex-direction: column;
         }
+
 
         .product-item:hover {
             transform: translateY(-10px); /* Hover efekti belirginleştirildi */
@@ -295,6 +300,7 @@
             justify-content: space-between;
             flex-grow: 1;
         }
+
 
         .product-item h3 {
             color: var(--heading-color);
@@ -350,6 +356,7 @@
             font-size: 1.3em; /* İkon boyutu arttırıldı */
         }
 
+
         /* Galeri Bölümü */
         .gallery-section {
             position: relative;
@@ -370,10 +377,12 @@
             transition: transform 0.4s ease, box-shadow 0.4s ease;
         }
 
+
         .gallery-item:hover {
             transform: scale(1.05); /* Hover büyütme belirginleştirildi */
             box-shadow: 0 8px 16px var(--box-shadow-color); /* Gölge */
         }
+
 
         .gallery-item img {
             width: 100%;
@@ -425,6 +434,7 @@
             letter-spacing: 1px; /* Harf aralığı arttırıldı */
         }
 
+
         .load-more-button {
             background: var(--button-gradient);
             color: var(--accent-color);
@@ -445,11 +455,13 @@
             text-transform: uppercase;
         }
 
+
         .load-more-button:hover {
             background: var(--button-hover-gradient);
             transform: translateY(-4px); /* Hover efekti belirginleştirildi */
             box-shadow: 0 7px 15px var(--box-shadow-color); /* Gölge */
         }
+
 
         /* İletişim Formu */
         .contact-form div {
@@ -545,6 +557,7 @@
             object-fit: contain; /* İçeriği kutuya sığdır */
         }
 
+
         .close-lightbox {
             position: absolute;
             top: 25px;
@@ -579,6 +592,7 @@
         .product-detail-page {
             display: none;
         }
+
 
         /* Mobil Uyum */
         @media screen and (max-width: 768px) {
